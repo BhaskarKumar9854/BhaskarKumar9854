@@ -21,7 +21,7 @@ const Navbar = () => {
    <button onClick={()=> fetchImageByCategory('travel')} type='button' className = "btn btn-outline-light">Travel </button>
 
     </div>
-    <div className="search">
+    <div className="button">
 
     <input type='text'  placeholder ='Search Here!' onChange={(e) => setQuery(e.target.value)} className='form-control bg-drak text-dark' style={{width:'40%',padding:'10px',}} />
     </div>
